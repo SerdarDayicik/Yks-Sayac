@@ -43,7 +43,7 @@ function updateCountdown() {
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // HTML elementlerinde güncelleme yap
-  countdownEl.innerHTML = `${days} gün, ${hours} saat, ${minutes} dakika, ${seconds} saniye kaldı.`;
+  countdownEl.innerHTML = `${days} gün, ${hours} saat, ${minutes} dakika, ${seconds} saniye`;
   const distance2 = countDownDate2 - now;
 
   // gün, saat, dakika ve saniyeleri hesapla
