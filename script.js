@@ -1,6 +1,6 @@
 // Sayaç ayarları
-const countDownDate = new Date("2023-06-17T10:30:00Z").getTime();
-const countDownDate2 = new Date("2023-06-18T10:30:00Z").getTime();
+const countDownDate = new Date("2023-06-17T10:15:00Z").getTime();
+const countDownDate2 = new Date("2023-06-18T10:15:00Z").getTime();
 
 // HTML elementlerini seçin
 const countdownEl = document.getElementById("countdown");
