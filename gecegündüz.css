@@ -91,7 +91,7 @@ p {
     color: #fff;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
     /* Mobil cihazlar için stiller */
     h1 {
       font-size: 24px;
@@ -106,5 +106,4 @@ p {
       z-index: 999;
     }
   }
-  
   
