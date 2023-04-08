@@ -55,7 +55,7 @@ function updateCountdown() {
   const seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
 
   // HTML elementlerinde güncelleme yap
-  countdownEl2.innerHTML = `${days2} gün, ${hours2} saat, ${minutes2} dakika, ${seconds2} saniye kaldı.`;
+  countdownEl2.innerHTML = `${days2} gün, ${hours2} saat, ${minutes2} dakika, ${seconds2} saniye`;
 }
 
 
