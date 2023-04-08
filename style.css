@@ -1,0 +1,31 @@
+/* Burada sayfa genelinde kullanılacak CSS stilleri bulunabilir. */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Mobil cihazlarda sayfa yüksekliği değiştikçe toggle-btn elemanının yerini değiştirmek için */
+}
+
+h1 {
+    margin-top: 40px;
+}
+
+p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Dark mode stilleri */
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-mode h1 {
+    color: #fff;
+}
+
+.dark-mode p {
+    color: #fff;
+}
